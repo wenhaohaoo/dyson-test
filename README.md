@@ -9,6 +9,7 @@ I will be assuming that there is already a notebook service and data platform (d
 - Docker
 - Docker Compose
 - Python
+- Notebook Environment (Jupyter or VSCode)
 
 ## Usage
 To run:

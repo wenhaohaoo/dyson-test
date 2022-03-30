@@ -32,6 +32,8 @@ $ docker stop mlflow-serving
 $ docker-compose down
 ```
 
+<hr>
+
 ## 1. Problem Statement
 
 Every Data Science project starts with defining the problem statement and the success metric. In this project, I will be using the [New York City Airbnb Open Data (2019)](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data?select=AB_NYC_2019.csv) dataset to try to predict the price of Airbnb listing in New York given the host id, location (neighourhood group, latitude, longitude), and room type.
@@ -132,3 +134,7 @@ I think these are the most important stages in a machine learning lifecycle. The
 
 [Open MRM Project](https://github.com/openMRM/OpenMRM/)
 > an open source software project for a composable Model Risk Management (MRM) services architecture with the explicit purpose of sharing MRM best practices for managing Machine Learning (ML) models.
+
+[MLOps: Continuous delivery and automation pipelines in machine learning](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
+
+I only came across this document after I've completed this assignment. Google Cloud has laid out clear definitions on the different levels of MLOps capabilities which I find is a good measure for any organisation trying to build a Machine Learning Platform.
